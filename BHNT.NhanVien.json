@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "671b1cf1fe278e62f89fa0d1"
+  },
+  "username": "nhanVien1",
+  "password": "password1",
+  "hoTen": "Nguyễn Văn A",
+  "chucVu": "Nhân viên bán hàng",
+  "email": "nhanvien1@example.com",
+  "soDienThoai": "0123456789",
+  "ngayTao": {
+    "$date": "2024-10-25T04:22:09.334Z"
+  },
+  "deleteTime": null
+},
+{
+  "_id": {
+    "$oid": "671b1cf1fe278e62f89fa0d2"
+  },
+  "username": "nhanVien2",
+  "password": "password2",
+  "hoTen": "Trần Thị B",
+  "chucVu": "Nhân viên chăm sóc khách hàng",
+  "email": "nhanvien2@example.com",
+  "soDienThoai": "0987654321",
+  "ngayTao": {
+    "$date": "2024-10-25T04:22:09.334Z"
+  },
+  "deleteTime": null
+},
+{
+  "_id": {
+    "$oid": "671b1cf1fe278e62f89fa0d3"
+  },
+  "username": "nhanVien3",
+  "password": "nv3",
+  "hoTen": "Lê Văn C",
+  "chucVu": "Quản lý dự án",
+  "email": "nhanvien3@example.com",
+  "soDienThoai": "0112233445",
+  "ngayTao": {
+    "$date": "2024-10-25T04:22:09.334Z"
+  },
+  "deleteTime": null
+},
+{
+  "_id": {
+    "$oid": "671b1cf1fe278e62f89fa0d4"
+  },
+  "username": "nhanVien4",
+  "password": "password4",
+  "hoTen": "Phạm Thị D",
+  "chucVu": "Nhân viên kỹ thuật",
+  "email": "nhanvien4@example.com",
+  "soDienThoai": "0667788990",
+  "ngayTao": {
+    "$date": "2024-10-25T04:22:09.334Z"
+  },
+  "deleteTime": null
+},
+{
+  "_id": {
+    "$oid": "671b1cf1fe278e62f89fa0d5"
+  },
+  "username": "nhanVien5",
+  "password": "password5",
+  "hoTen": "Ngô Văn E",
+  "chucVu": "Giám đốc",
+  "email": "nhanvien5@example.com",
+  "soDienThoai": "0223344556",
+  "ngayTao": {
+    "$date": "2024-10-25T04:22:09.334Z"
+  },
+  "deleteTime": null
+}]

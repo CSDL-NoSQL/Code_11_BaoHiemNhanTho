@@ -1,0 +1,235 @@
+[{
+  "_id": "650c1f7f86f25b6f1b2e6f5a",
+  "customerId": "KH0001",
+  "name": {
+    "firstName": "Nguyen",
+    "lastName": "Van A"
+  },
+  "dob": "1985-05-20",
+  "gender": "male",
+  "address": {
+    "street": "123 Le Loi",
+    "city": "Ho Chi Minh",
+    "country": "Vietnam"
+  },
+  "phoneNumber": "+84 123 456 789",
+  "email": "customer1@example.com",
+  "insurancePolicies": [
+    {
+      "policyId": "650c1f7f86f25b6f1b2e6f5b",
+      "policyNumber": "BH12345",
+      "policyType": "Term Life Insurance",
+      "startDate": "2023-01-01",
+      "endDate": "2033-01-01",
+      "premium": 5000000,
+      "coverageAmount": 200000000,
+      "beneficiaries": [
+        {
+          "name": "Le Thi B",
+          "relationship": "Spouse",
+          "percentage": 50
+        },
+        {
+          "name": "Nguyen Van C",
+          "relationship": "Child",
+          "percentage": 50
+        }
+      ],
+      "claims": [
+        {
+          "claimId": "650c1f7f86f25b6f1b2e6f5c",
+          "claimNumber": "CL123456",
+          "dateOfClaim": "2023-05-10",
+          "claimAmount": 3000000,
+          "status": "Approved",
+          "description": "Hospitalization due to accident"
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "paymentId": "650c1f7f86f25b6f1b2e6f5d",
+      "amount": 5000000,
+      "paymentDate": "2023-01-10",
+      "paymentMethod": "Bank Transfer"
+    }
+  ]
+},
+{
+  "_id": "650c1f7f86f25b6f1b2e6f60",
+  "customerId": "KH0002",
+  "name": {
+    "firstName": "Tran",
+    "lastName": "Thi C"
+  },
+  "dob": "1990-02-15",
+  "gender": "female",
+  "address": {
+    "street": "456 Nguyen Trai",
+    "city": "Da Nang",
+    "country": "Vietnam"
+  },
+  "phoneNumber": "+84 987 654 321",
+  "email": "customer2@example.com",
+  "insurancePolicies": [
+    {
+      "policyId": {
+        "$oid": "650c1f7f86f25b6f1b2e6f61"
+      },
+      "policyNumber": "BH54321",
+      "policyType": "Whole Life Insurance",
+      "startDate": {
+        "$date": "2022-06-01T00:00:00.000Z"
+      },
+      "endDate": {
+        "$date": "2042-06-01T00:00:00.000Z"
+      },
+      "premium": "8000000",
+      "coverageAmount": "500000000",
+      "beneficiaries": [
+        {
+          "name": "Nguyen Van D",
+          "relationship": "Father",
+          "percentage": 100
+        }
+      ],
+      "claims": [
+        {
+          "claimId": {
+            "$oid": "650c1f7f86f25b6f1b2e6f62"
+          },
+          "claimNumber": "CL654321",
+          "dateOfClaim": {
+            "$date": "2023-02-20T00:00:00.000Z"
+          },
+          "claimAmount": "10000000",
+          "status": "Pending",
+          "description": "Critical illness treatment"
+        },
+        {
+          "claimId": {
+            "$oid": "000000000000000000000000"
+          },
+          "claimNumber": "CL654321",
+          "dateOfClaim": {
+            "$date": "2024-11-02T00:44:32.168Z"
+          },
+          "claimAmount": "10000000",
+          "status": "Pending",
+          "description": "Critical illness treatment"
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "paymentId": "650c1f7f86f25b6f1b2e6f63",
+      "amount": 8000000,
+      "paymentDate": "2023-06-05",
+      "paymentMethod": "Credit Card"
+    }
+  ]
+},
+{
+  "_id": "650c1f7f86f25b6f1b2e6f64",
+  "customerId": "KH0003",
+  "name": {
+    "firstName": "Le",
+    "lastName": "Van E"
+  },
+  "dob": "1978-11-11",
+  "gender": "male",
+  "address": {
+    "street": "789 Tran Phu",
+    "city": "Hanoi",
+    "country": "Vietnam"
+  },
+  "phoneNumber": "+84 555 444 333",
+  "email": "customer3@example.com",
+  "insurancePolicies": [
+    {
+      "policyId": "650c1f7f86f25b6f1b2e6f65",
+      "policyNumber": "BH78901",
+      "policyType": "Health Insurance",
+      "startDate": "2021-12-01",
+      "endDate": "2031-12-01",
+      "premium": 3000000,
+      "coverageAmount": 100000000,
+      "beneficiaries": [
+        {
+          "name": "Le Thi F",
+          "relationship": "Daughter",
+          "percentage": 50
+        },
+        {
+          "name": "Le Van G",
+          "relationship": "Son",
+          "percentage": 50
+        }
+      ],
+      "claims": [
+        {
+          "claimId": "650c1f7f86f25b6f1b2e6f66",
+          "claimNumber": "CL789012",
+          "dateOfClaim": "2022-03-15",
+          "claimAmount": 5000000,
+          "status": "Rejected",
+          "description": "Dental treatment"
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "paymentId": "650c1f7f86f25b6f1b2e6f67",
+      "amount": 3000000,
+      "paymentDate": "2021-12-10",
+      "paymentMethod": "Cash"
+    }
+  ]
+},
+{
+  "_id": "650c1f7f86f25b6f1b2e6f68",
+  "customerId": "KH0004",
+  "name": {
+    "firstName": "Pham",
+    "lastName": "Thi H"
+  },
+  "dob": "1995-07-07",
+  "gender": "female",
+  "address": {
+    "street": "101 Vo Van Tan",
+    "city": "Can Tho",
+    "country": "Vietnam"
+  },
+  "phoneNumber": "+84 222 333 444",
+  "email": "customer4@example.com",
+  "insurancePolicies": [
+    {
+      "policyId": "650c1f7f86f25b6f1b2e6f69",
+      "policyNumber": "BH98765",
+      "policyType": "Accident Insurance",
+      "startDate": "2022-09-01",
+      "endDate": "2032-09-01",
+      "premium": 2500000,
+      "coverageAmount": 30000000,
+      "beneficiaries": [
+        {
+          "name": "Pham Van I",
+          "relationship": "Brother",
+          "percentage": 100
+        }
+      ],
+      "claims": []
+    }
+  ],
+  "payments": [
+    {
+      "paymentId": "650c1f7f86f25b6f1b2e6f70",
+      "amount": 2500000,
+      "paymentDate": "2022-09-05",
+      "paymentMethod": "Bank Transfer"
+    }
+  ]
+}]
